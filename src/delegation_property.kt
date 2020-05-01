@@ -10,3 +10,8 @@ class NameDelegate {
         return property.name
     }
 }
+
+fun main(args: Array<String>){
+    val obj = Example()
+    println(obj.someName)
+}
